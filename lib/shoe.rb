@@ -8,10 +8,12 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    u_brands = brand.uniq
-    BRANDS << u_brands
+    if 
+      @brand != @brand
+      BRANDS << brand
+    end
   end
-
+  
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
