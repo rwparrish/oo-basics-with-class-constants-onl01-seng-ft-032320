@@ -8,6 +8,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    if
+      Shoe.new(brand != @brand)
     
   end
   
